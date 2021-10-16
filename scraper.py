@@ -4,6 +4,8 @@ import os
 from lxml import etree
 import requests
 
+# This URL comes from:
+# https://www.six-group.com/en/products-services/financial-information/data-standards.html#scrollTo=currency-codes
 url = "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/amendments/lists/list_one.xml"
 
 r = requests.get(url)
