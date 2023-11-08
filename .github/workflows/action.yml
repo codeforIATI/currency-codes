@@ -30,6 +30,6 @@ jobs:
         with:
           branch: gh-pages
           folder: output
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           git-config-name: Code for IATI bot
           git-config-email: 57559326+codeforIATIbot@users.noreply.github.com
